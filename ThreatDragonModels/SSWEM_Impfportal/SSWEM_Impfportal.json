@@ -1495,6 +1495,12 @@
           "height": 600,
           "width": 1228
         }
+      },
+      {
+        "title": "DFD_V2",
+        "thumbnail": "./public/content/images/thumbnail.stride.jpg",
+        "diagramType": "STRIDE",
+        "id": 1
       }
     ],
     "reviewer": "Roman Mähler"
