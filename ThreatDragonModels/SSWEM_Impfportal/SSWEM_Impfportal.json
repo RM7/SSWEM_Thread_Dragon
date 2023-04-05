@@ -1536,8 +1536,8 @@
                 "height": 100
               },
               "position": {
-                "x": 373,
-                "y": 187
+                "x": 326,
+                "y": 178
               },
               "angle": 0,
               "id": "49aede54-fdc6-42fe-bd36-1f50d3584f09",
@@ -1562,7 +1562,7 @@
                 "height": 100
               },
               "position": {
-                "x": 589,
+                "x": 577,
                 "y": 187
               },
               "angle": 0,
@@ -1842,8 +1842,8 @@
                 "height": 100
               },
               "position": {
-                "x": 455,
-                "y": 0
+                "x": 447,
+                "y": 1
               },
               "angle": 0,
               "id": "27ed510c-a7fc-4056-9532-16ecd4913745",
@@ -2343,8 +2343,8 @@
               },
               "smooth": true,
               "source": {
-                "x": 1185,
-                "y": 351
+                "x": 1178,
+                "y": 368
               },
               "target": {
                 "x": 1177,
@@ -2360,12 +2360,16 @@
                   "y": 485
                 },
                 {
-                  "x": 367,
-                  "y": 461
+                  "x": 316,
+                  "y": 464
                 },
                 {
-                  "x": 380,
-                  "y": 162
+                  "x": 235,
+                  "y": 212
+                },
+                {
+                  "x": 397,
+                  "y": 157
                 },
                 {
                   "x": 826,
@@ -2772,6 +2776,131 @@
                   "class": "connection hasNoOpenThreats isInScope"
                 }
               }
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 325,
+                "y": 323
+              },
+              "target": {
+                "x": 495,
+                "y": 170
+              },
+              "vertices": [
+                {
+                  "x": 477,
+                  "y": 309
+                }
+              ],
+              "id": "ce5d009f-06d0-4fff-a670-ac382309b786",
+              "z": 48,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.6430547855861422,
+                    "offset": 14.556724556489952
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Webserver Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 562,
+                "y": 170
+              },
+              "target": {
+                "x": 587,
+                "y": 295
+              },
+              "vertices": [
+                {
+                  "x": 706,
+                  "y": 201
+                },
+                {
+                  "x": 678,
+                  "y": 285
+                }
+              ],
+              "id": "9779451a-504a-4bf1-9d73-c222f1100d01",
+              "z": 49,
+              "labels": [
+                {
+                  "position": {
+                    "distance": 0.44038431933579986,
+                    "offset": -18.55362916637754
+                  },
+                  "attrs": {
+                    "text": {
+                      "text": "Applikation Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
+            },
+            {
+              "type": "tm.Boundary",
+              "size": {
+                "width": 10,
+                "height": 10
+              },
+              "smooth": true,
+              "source": {
+                "x": 803,
+                "y": 177
+              },
+              "target": {
+                "x": 926,
+                "y": 180
+              },
+              "vertices": [
+                {
+                  "x": 796,
+                  "y": 287
+                },
+                {
+                  "x": 908,
+                  "y": 281
+                }
+              ],
+              "id": "d1705992-1a26-43ee-a044-00f2188037f0",
+              "z": 50,
+              "labels": [
+                {
+                  "position": 0.5,
+                  "attrs": {
+                    "text": {
+                      "text": "DBMS Boundary",
+                      "font-weight": "400",
+                      "font-size": "small"
+                    }
+                  }
+                }
+              ],
+              "attrs": {}
             }
           ]
         },
